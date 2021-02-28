@@ -1,0 +1,57 @@
+body {
+	background-color: rgb(230, 230, 230); ;
+	color: rgb(30,30,30);
+	font-family: Courrier;
+}
+
+h1 {
+	color: purple;
+	font-family: Helvetica;
+	font-weight: 400;
+	letter-spacing: 10px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo { 
+  width: 150px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-circle { 
+  border-radius: 50%;
+}
+.center {
+  text-align: center;
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
